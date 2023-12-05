@@ -1,4 +1,4 @@
-# 📦 webpack Boilerplate
+# 📦 webpack Boilerplate (adapted for React)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
@@ -88,9 +88,13 @@ cd dist && http-server
   - - [`prettier`](https://github.com/prettier/prettier) - Dependency for `prettier-webpack-plugin` plugin
 - [`eslint-import-resolver-webpack`](https://github.com/benmosher/eslint-plugin-import/tree/master/resolvers/webpack) - Throw exceptions for import/export in webpack
 
+## Changes to original template
+The original template has been adapted to support React, including setting up the project to use `@babel/preset-react`.
+
 ## Author
 
-- [Tania Rascia](https://www.taniarascia.com)
+- [Tania Rascia](https://www.taniarascia.com) (Original template)
+- [Benjamin Williams](https://github.com/blewert/) (Forked version)
 
 ## License
 
